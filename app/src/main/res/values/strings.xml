@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dance Line Chart</string>
+    <string name="dance_line_chart">Dance Line Chart</string>
+    <string name="action_settings">Settings</string>
+    <string name="order">0.</string>
+    <string name="artist">ARTIST</string>
+    <string name="title">Title</string>
+</resources>

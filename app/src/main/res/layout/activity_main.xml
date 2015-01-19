@@ -1,0 +1,1667 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:background="#ffffff"
+        >
+
+        <!-- ROW 1 -->
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 2 -->
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 3 -->
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 4 -->
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 5 -->
+        <TableRow
+            android:id="@+id/row5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 6 -->
+        <TableRow
+            android:id="@+id/row6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover6"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 7 -->
+        <TableRow
+            android:id="@+id/row7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 8 -->
+        <TableRow
+            android:id="@+id/row8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover8"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 9 -->
+        <TableRow
+            android:id="@+id/row9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover9"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 10 -->
+        <TableRow
+            android:id="@+id/row10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover10"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 11 -->
+        <TableRow
+            android:id="@+id/row11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover11"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 12 -->
+        <TableRow
+            android:id="@+id/row12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover12"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 13 -->
+        <TableRow
+            android:id="@+id/row13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover13"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 14 -->
+        <TableRow
+            android:id="@+id/row14"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover14"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 15 -->
+        <TableRow
+            android:id="@+id/row15"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover15"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 16 -->
+        <TableRow
+            android:id="@+id/row16"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover16"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 17 -->
+        <TableRow
+            android:id="@+id/row17"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover17"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 18 -->
+        <TableRow
+            android:id="@+id/row18"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover18"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 19 -->
+        <TableRow
+            android:id="@+id/row19"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover19"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 20 -->
+        <TableRow
+            android:id="@+id/row20"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover20"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 21 -->
+        <TableRow
+            android:id="@+id/row21"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover21"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 22 -->
+        <TableRow
+            android:id="@+id/row22"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover22"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 23 -->
+        <TableRow
+            android:id="@+id/row23"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover23"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 24 -->
+        <TableRow
+            android:id="@+id/row24"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover24"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 25 -->
+        <TableRow
+            android:id="@+id/row25"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover25"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 26 -->
+        <TableRow
+            android:id="@+id/row26"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover26"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 27 -->
+        <TableRow
+            android:id="@+id/row27"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order27"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover27"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist27"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title27"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player27"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 28 -->
+        <TableRow
+            android:id="@+id/row28"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover28"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 29-->
+        <TableRow
+            android:id="@+id/row29"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover29"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+
+        <!-- ROW 30 -->
+        <TableRow
+            android:id="@+id/row30"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/order30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:text="@string/order"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cover30"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.15"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/artist30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/artist"
+                android:textColor="#e1002c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/player30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:background="@android:drawable/ic_media_play"
+                android:onClick="play"
+                android:padding="5dp" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
+    
